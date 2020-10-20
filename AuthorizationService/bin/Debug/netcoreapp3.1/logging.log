@@ -1,0 +1,20 @@
+INFO  11:41:25 Application started. Press Ctrl+C to shut down.
+INFO  11:41:25 Application started. Press Ctrl+C to shut down.
+INFO  11:41:25 Hosting environment: Development
+INFO  11:41:25 Hosting environment: Development
+INFO  11:41:25 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:41:25 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:42:59 Authentication initiated
+INFO  11:45:04 login data is correct
+INFO  11:45:04 Token generation initiated
+INFO  11:45:06 Token Generated Successfuly
+INFO  11:53:50 Application started. Press Ctrl+C to shut down.
+INFO  11:53:50 Application started. Press Ctrl+C to shut down.
+INFO  11:53:50 Hosting environment: Development
+INFO  11:53:50 Hosting environment: Development
+INFO  11:53:50 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:53:50 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:55:00 Authentication initiated
+INFO  11:56:04 login data is correct
+INFO  11:56:04 Token generation initiated
+INFO  11:56:06 Token Generated Successfuly

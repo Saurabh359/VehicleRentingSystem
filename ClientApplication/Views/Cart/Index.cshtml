@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ClientApplication.Models.Vehicle>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <h1>Cart Index</h1>
+    <p>
+        <a asp-action="Index" asp-controller="Vehicle">Go Back</a>
+    </p>
+
+    <div class="container pt-3">
+        @foreach (var item in Model)
+        {
+            <div class="row media mt-3 shadow">
+                <div class="col-sm-3 d-flex justify-content-center">
+                    <img class="card-img" src="https://images.hdqwalls.com/download/orange-lambo-aventador-5k-5j-2048x1152.jpg" height="150" width="200" />
+                </div>
+                <div class="col-sm-9 media-body align-content-end text-center">
+                    <h3 class="card-title m-0">@item.Name</h3>
+                    <p class="card-text m-0">@item.Color</p>
+                    <p class="card-text m-0">@item.Category</p>
+                    <p class="card-text m-0">@item.Brand</p>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>

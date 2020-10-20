@@ -1,0 +1,879 @@
+INFO  05:39:39 Application started. Press Ctrl+C to shut down.
+INFO  05:39:40 Application started. Press Ctrl+C to shut down.
+INFO  05:39:40 Hosting environment: Development
+INFO  05:39:40 Hosting environment: Development
+INFO  05:39:40 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  05:39:40 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  06:08:46 Application started. Press Ctrl+C to shut down.
+INFO  06:08:46 Application started. Press Ctrl+C to shut down.
+INFO  06:08:46 Hosting environment: Development
+INFO  06:08:46 Hosting environment: Development
+INFO  06:08:46 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:08:46 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:13:29 Authentication initiated
+INFO  06:13:42 login data is correct
+INFO  06:13:42 Token generation initiated
+INFO  06:13:44 Token Generated Successfuly
+INFO  06:23:09 Application started. Press Ctrl+C to shut down.
+INFO  06:23:09 Application started. Press Ctrl+C to shut down.
+INFO  06:23:10 Hosting environment: Development
+INFO  06:23:10 Hosting environment: Development
+INFO  06:23:10 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:23:10 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:27:03 Authentication initiated
+INFO  06:27:13 login data is correct
+INFO  06:27:13 Token generation initiated
+INFO  06:27:14 Token Generated Successfuly
+INFO  06:33:05 Application started. Press Ctrl+C to shut down.
+INFO  06:33:05 Application started. Press Ctrl+C to shut down.
+INFO  06:33:05 Hosting environment: Development
+INFO  06:33:05 Hosting environment: Development
+INFO  06:33:05 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:33:05 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:35:08 Authentication initiated
+INFO  06:35:19 login data is correct
+INFO  06:35:19 Token generation initiated
+INFO  06:35:21 Token Generated Successfuly
+INFO  06:49:51 Application started. Press Ctrl+C to shut down.
+INFO  06:49:51 Application started. Press Ctrl+C to shut down.
+INFO  06:49:51 Hosting environment: Development
+INFO  06:49:51 Hosting environment: Development
+INFO  06:49:51 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:49:51 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:51:44 Authentication initiated
+INFO  06:51:57 login data is correct
+INFO  06:51:57 Token generation initiated
+INFO  06:51:58 Token Generated Successfuly
+INFO  06:58:32 Application started. Press Ctrl+C to shut down.
+INFO  06:58:32 Application started. Press Ctrl+C to shut down.
+INFO  06:58:32 Hosting environment: Development
+INFO  06:58:32 Hosting environment: Development
+INFO  06:58:32 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:58:32 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:59:59 Authentication initiated
+INFO  07:00:10 login data is correct
+INFO  07:00:10 Token generation initiated
+INFO  07:00:11 Token Generated Successfuly
+INFO  07:24:19 Application started. Press Ctrl+C to shut down.
+INFO  07:24:20 Application started. Press Ctrl+C to shut down.
+INFO  07:24:20 Hosting environment: Development
+INFO  07:24:20 Hosting environment: Development
+INFO  07:24:20 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  07:24:20 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+ERROR 07:24:24 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthorizationService.Controllers.VehicleController.Get (AuthorizationService). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 07:24:24 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthorizationService.Controllers.VehicleController.Get (AuthorizationService). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 07:24:36 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthorizationService.Controllers.VehicleController.Get (AuthorizationService). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 07:24:36 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthorizationService.Controllers.VehicleController.Get (AuthorizationService). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  07:26:09 Application started. Press Ctrl+C to shut down.
+INFO  07:26:09 Application started. Press Ctrl+C to shut down.
+INFO  07:26:09 Hosting environment: Development
+INFO  07:26:09 Hosting environment: Development
+INFO  07:26:09 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  07:26:09 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+ERROR 07:26:13 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthorizationService.Controllers.VehicleController.Get (AuthorizationService). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 07:26:13 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthorizationService.Controllers.VehicleController.Get (AuthorizationService). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+FATAL 07:29:19 Application startup exception
+System.ArgumentException: The literal section 'GetCart?id' is invalid. Literal sections cannot contain the '?' character. (Parameter 'routeTemplate')
+ ---> Microsoft.AspNetCore.Routing.Patterns.RoutePatternException: The literal section 'GetCart?id' is invalid. Literal sections cannot contain the '?' character.
+   at Microsoft.AspNetCore.Routing.Patterns.RoutePatternParser.Parse(String pattern)
+   at Microsoft.AspNetCore.Routing.Patterns.RoutePatternFactory.Parse(String pattern)
+   at Microsoft.AspNetCore.Routing.Template.TemplateParser.Parse(String routeTemplate)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Routing.Template.TemplateParser.Parse(String routeTemplate)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.ParameterExistsInAnyRoute(ActionModel action, String parameterName)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.InferBindingSourceForParameter(ParameterModel parameter)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.InferParameterBindingSources(ActionModel action)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.Apply(ActionModel action)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.<>c__DisplayClass11_0.<Subscribe>b__0()
+   at Microsoft.Extensions.Primitives.ChangeToken.ChangeTokenRegistration`1..ctor(Func`1 changeTokenProducer, Action`1 changeTokenConsumer, TState state)
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource..ctor(IActionDescriptorCollectionProvider actions, ActionEndpointFactory endpointFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(IEndpointRouteBuilder endpoints)
+   at AuthorizationService.Startup.<>c.<Configure>b__5_1(IEndpointRouteBuilder endpoints) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Startup.cs:line 122
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at AuthorizationService.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Startup.cs:line 120
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+FATAL 07:29:19 Application startup exception
+System.ArgumentException: The literal section 'GetCart?id' is invalid. Literal sections cannot contain the '?' character. (Parameter 'routeTemplate')
+ ---> Microsoft.AspNetCore.Routing.Patterns.RoutePatternException: The literal section 'GetCart?id' is invalid. Literal sections cannot contain the '?' character.
+   at Microsoft.AspNetCore.Routing.Patterns.RoutePatternParser.Parse(String pattern)
+   at Microsoft.AspNetCore.Routing.Patterns.RoutePatternFactory.Parse(String pattern)
+   at Microsoft.AspNetCore.Routing.Template.TemplateParser.Parse(String routeTemplate)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Routing.Template.TemplateParser.Parse(String routeTemplate)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.ParameterExistsInAnyRoute(ActionModel action, String parameterName)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.InferBindingSourceForParameter(ParameterModel parameter)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.InferParameterBindingSources(ActionModel action)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.Apply(ActionModel action)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.<>c__DisplayClass11_0.<Subscribe>b__0()
+   at Microsoft.Extensions.Primitives.ChangeToken.ChangeTokenRegistration`1..ctor(Func`1 changeTokenProducer, Action`1 changeTokenConsumer, TState state)
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource..ctor(IActionDescriptorCollectionProvider actions, ActionEndpointFactory endpointFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(IEndpointRouteBuilder endpoints)
+   at AuthorizationService.Startup.<>c.<Configure>b__5_1(IEndpointRouteBuilder endpoints) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Startup.cs:line 122
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at AuthorizationService.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Startup.cs:line 120
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+INFO  07:45:14 Application started. Press Ctrl+C to shut down.
+INFO  07:45:14 Application started. Press Ctrl+C to shut down.
+INFO  07:45:14 Hosting environment: Development
+INFO  07:45:14 Hosting environment: Development
+INFO  07:45:14 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  07:45:14 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  07:47:48 Authentication initiated
+INFO  07:48:01 login data is correct
+INFO  07:48:01 Token generation initiated
+INFO  07:48:02 Token Generated Successfuly
+INFO  08:07:18 Application started. Press Ctrl+C to shut down.
+INFO  08:07:18 Application started. Press Ctrl+C to shut down.
+INFO  08:07:18 Hosting environment: Development
+INFO  08:07:18 Hosting environment: Development
+INFO  08:07:18 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  08:07:18 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  08:07:21 Authentication initiated
+INFO  08:07:21 Authentication initiated
+INFO  08:07:30 login data is correct
+INFO  08:07:30 login data is correct
+INFO  08:07:30 Token generation initiated
+INFO  08:07:30 Token generation initiated
+INFO  08:07:31 Token Generated Successfuly
+INFO  08:07:31 Token Generated Successfuly
+ERROR 08:13:28 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 08:13:28 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  08:23:00 Authentication initiated
+INFO  08:23:01 login data is correct
+INFO  08:23:01 Token generation initiated
+INFO  08:23:01 Token Generated Successfuly
+ERROR 08:25:16 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 08:25:16 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  09:27:50 Application started. Press Ctrl+C to shut down.
+INFO  09:27:51 Application started. Press Ctrl+C to shut down.
+INFO  09:27:51 Hosting environment: Development
+INFO  09:27:51 Hosting environment: Development
+INFO  09:27:51 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:27:51 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:35:15 Authentication initiated
+INFO  09:35:26 login data is correct
+INFO  09:35:26 Token generation initiated
+INFO  09:35:27 Token Generated Successfuly
+INFO  09:45:13 Authentication initiated
+INFO  09:45:14 login data is correct
+INFO  09:45:14 Token generation initiated
+INFO  09:45:14 Token Generated Successfuly
+INFO  09:57:00 Application started. Press Ctrl+C to shut down.
+INFO  09:57:00 Application started. Press Ctrl+C to shut down.
+INFO  09:57:00 Hosting environment: Development
+INFO  09:57:00 Hosting environment: Development
+INFO  09:57:00 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:57:00 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:02:01 Authentication initiated
+INFO  10:02:12 login data is correct
+INFO  10:02:12 Token generation initiated
+INFO  10:02:13 Token Generated Successfuly
+INFO  10:08:36 Application started. Press Ctrl+C to shut down.
+INFO  10:08:36 Application started. Press Ctrl+C to shut down.
+INFO  10:08:36 Hosting environment: Development
+INFO  10:08:36 Hosting environment: Development
+INFO  10:08:36 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:08:36 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:12:22 Authentication initiated
+INFO  10:12:32 login data is correct
+INFO  10:12:32 Token generation initiated
+INFO  10:12:34 Token Generated Successfuly
+ERROR 10:15:49 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:15:50 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:18:50 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:18:50 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  10:26:33 Application started. Press Ctrl+C to shut down.
+INFO  10:26:33 Application started. Press Ctrl+C to shut down.
+INFO  10:26:33 Hosting environment: Development
+INFO  10:26:33 Hosting environment: Development
+INFO  10:26:33 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:26:33 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:29:18 Authentication initiated
+INFO  10:29:29 login data is correct
+INFO  10:29:29 Token generation initiated
+INFO  10:29:30 Token Generated Successfuly
+ERROR 10:32:09 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:32:09 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  10:36:05 Application started. Press Ctrl+C to shut down.
+INFO  10:36:05 Application started. Press Ctrl+C to shut down.
+INFO  10:36:05 Hosting environment: Development
+INFO  10:36:05 Hosting environment: Development
+INFO  10:36:05 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:36:05 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:39:53 Authentication initiated
+INFO  10:40:03 login data is correct
+INFO  10:40:03 Token generation initiated
+INFO  10:40:05 Token Generated Successfuly
+INFO  11:02:40 Application started. Press Ctrl+C to shut down.
+INFO  11:02:40 Application started. Press Ctrl+C to shut down.
+INFO  11:02:40 Hosting environment: Development
+INFO  11:02:40 Hosting environment: Development
+INFO  11:02:40 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:02:40 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:05:09 Authentication initiated
+INFO  11:05:20 login data is correct
+INFO  11:05:20 Token generation initiated
+INFO  11:05:21 Token Generated Successfuly
+ERROR 11:08:04 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:08:04 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at VehicleService.Repository.VehicleOperations.Search(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Repository\VehicleOperations.cs:line 46
+   at AuthorizationService.Controllers.VehicleController.Get(Int32 id) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\VehicleController.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:11:55 Authentication initiated
+INFO  11:11:56 login data is correct
+INFO  11:11:56 Token generation initiated
+INFO  11:11:56 Token Generated Successfuly
+INFO  11:15:03 Authentication initiated
+INFO  11:15:03 login data is correct
+INFO  11:15:03 Token generation initiated
+INFO  11:15:03 Token Generated Successfuly
+INFO  09:51:06 Application started. Press Ctrl+C to shut down.
+INFO  09:51:07 Application started. Press Ctrl+C to shut down.
+INFO  09:51:07 Hosting environment: Development
+INFO  09:51:07 Hosting environment: Development
+INFO  09:51:07 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:51:07 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:57:02 Authentication initiated
+INFO  09:57:57 login data is correct
+INFO  09:57:57 Token generation initiated
+INFO  09:57:59 Token Generated Successfuly
+INFO  08:59:05 Application started. Press Ctrl+C to shut down.
+INFO  08:59:05 Application started. Press Ctrl+C to shut down.
+INFO  08:59:05 Hosting environment: Development
+INFO  08:59:05 Hosting environment: Development
+INFO  08:59:05 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  08:59:05 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+ERROR 08:59:12 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthorizationService.Controllers.AuthTokenController.GenerateToken (AuthorizationService). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 08:59:12 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthorizationService.Controllers.AuthTokenController.GenerateToken (AuthorizationService). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  09:08:30 Application started. Press Ctrl+C to shut down.
+INFO  09:08:30 Application started. Press Ctrl+C to shut down.
+INFO  09:08:30 Hosting environment: Development
+INFO  09:08:30 Hosting environment: Development
+INFO  09:08:30 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:08:30 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+ERROR 09:08:35 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthorizationService.Controllers.AuthTokenController.GetToken (AuthorizationService). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 09:08:35 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthorizationService.Controllers.AuthTokenController.GetToken (AuthorizationService). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  09:17:40 Application started. Press Ctrl+C to shut down.
+INFO  09:17:40 Application started. Press Ctrl+C to shut down.
+INFO  09:17:40 Hosting environment: Development
+INFO  09:17:40 Hosting environment: Development
+INFO  09:17:40 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:17:40 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:19:17 VehicleOperationsinvoked
+INFO  09:20:30 VehicleOperationsinvoked
+INFO  09:23:32 Application started. Press Ctrl+C to shut down.
+INFO  09:23:32 Application started. Press Ctrl+C to shut down.
+INFO  09:23:32 Hosting environment: Development
+INFO  09:23:32 Hosting environment: Development
+INFO  09:23:32 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:23:32 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:24:56 VehicleOperationsinvoked
+INFO  09:25:45 VehicleOperationsinvoked
+INFO  09:25:56 VehicleOperationsinvoked
+INFO  09:26:16 VehicleOperationsinvoked
+INFO  09:26:20 VehicleOperationsinvoked
+INFO  09:26:30 VehicleOperationsinvoked
+INFO  10:16:10 Application started. Press Ctrl+C to shut down.
+INFO  10:16:10 Application started. Press Ctrl+C to shut down.
+INFO  10:16:10 Hosting environment: Development
+INFO  10:16:10 Hosting environment: Development
+INFO  10:16:10 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:16:10 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:18:25 VehicleOperationsinvoked
+INFO  10:19:11 VehicleOperationsinvoked
+INFO  10:19:17 VehicleOperationsinvoked
+INFO  10:19:22 VehicleOperationsinvoked
+INFO  10:19:27 VehicleOperationsinvoked
+INFO  10:19:37 Authentication initiated
+INFO  10:20:40 VehicleOperationsinvoked
+ERROR 10:20:42 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AuthorizationService.Controllers.AuthTokenController.Post(UserData _userData) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\AuthTokenController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:20:42 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AuthorizationService.Controllers.AuthTokenController.Post(UserData _userData) in C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService\Controllers\AuthTokenController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  10:49:27 Application started. Press Ctrl+C to shut down.
+INFO  10:49:27 Application started. Press Ctrl+C to shut down.
+INFO  10:49:27 Hosting environment: Development
+INFO  10:49:27 Hosting environment: Development
+INFO  10:49:27 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:49:27 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:50:47 VehicleOperationsinvoked
+INFO  10:51:31 Authentication initiated
+INFO  10:51:31 UserOperationsinvoked
+INFO  10:51:40 login data is correct
+INFO  10:51:40 Token generation initiated
+INFO  10:51:41 Token Generated Successfuly
+INFO  10:51:42 VehicleOperationsinvoked
+INFO  10:51:51 VehicleOperationsinvoked
+INFO  10:52:13 VehicleOperationsinvoked
+INFO  10:52:32 Authentication initiated
+INFO  10:52:32 UserOperationsinvoked
+INFO  10:52:32 login data is correct
+INFO  10:52:32 Token generation initiated
+INFO  10:52:32 Token Generated Successfuly
+INFO  10:52:32 VehicleOperationsinvoked
+INFO  10:52:35 VehicleOperationsinvoked
+INFO  10:52:45 VehicleOperationsinvoked
+INFO  10:53:05 CartOperationsinvoked
+INFO  10:53:09 VehicleOperationsinvoked
+INFO  10:53:12 VehicleOperationsinvoked
+INFO  10:53:23 VehicleOperationsinvoked
+INFO  10:53:34 Authentication initiated
+INFO  10:53:34 UserOperationsinvoked
+INFO  10:53:34 login data is correct
+INFO  10:53:34 Token generation initiated
+INFO  10:53:34 Token Generated Successfuly
+INFO  10:53:35 VehicleOperationsinvoked
+INFO  10:53:37 VehicleOperationsinvoked
+INFO  10:53:42 VehicleOperationsinvoked
+INFO  10:53:52 Authentication initiated
+INFO  10:53:52 UserOperationsinvoked
+INFO  10:53:52 login data is correct
+INFO  10:53:52 Token generation initiated
+INFO  10:53:52 Token Generated Successfuly
+INFO  10:53:53 VehicleOperationsinvoked
+INFO  10:53:56 VehicleOperationsinvoked
+INFO  10:53:59 VehicleOperationsinvoked
+INFO  10:54:34 VehicleOperationsinvoked
+INFO  10:54:38 VehicleOperationsinvoked
+INFO  10:55:01 VehicleOperationsinvoked
+INFO  10:55:08 VehicleOperationsinvoked
+INFO  10:55:28 Authentication initiated
+INFO  10:55:28 UserOperationsinvoked
+INFO  10:55:28 login data is correct
+INFO  10:55:28 Token generation initiated
+INFO  10:55:28 Token Generated Successfuly
+INFO  10:55:28 VehicleOperationsinvoked
+INFO  10:55:41 VehicleOperationsinvoked
+INFO  10:56:31 UserOperationsinvoked
+INFO  10:56:41 Authentication initiated
+INFO  10:56:41 UserOperationsinvoked
+INFO  10:56:41 login data is correct
+INFO  10:56:41 Token generation initiated
+INFO  10:56:41 Token Generated Successfuly
+INFO  10:56:41 VehicleOperationsinvoked
+INFO  10:56:45 VehicleOperationsinvoked
+INFO  10:56:48 VehicleOperationsinvoked
+INFO  10:57:03 CartOperationsinvoked
+INFO  10:57:03 VehicleOperationsinvoked
+INFO  10:57:07 VehicleOperationsinvoked
+INFO  10:57:21 VehicleOperationsinvoked
+INFO  10:57:36 VehicleOperationsinvoked
+INFO  01:31:35 Application started. Press Ctrl+C to shut down.
+INFO  01:31:36 Application started. Press Ctrl+C to shut down.
+INFO  01:31:36 Hosting environment: Development
+INFO  01:31:36 Hosting environment: Development
+INFO  01:31:36 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  01:31:36 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  01:35:50 Authentication initiated
+INFO  01:35:50 UserOperationsinvoked
+INFO  01:36:02 login data is correct
+INFO  01:36:02 Token generation initiated
+INFO  01:36:04 Token Generated Successfuly
+INFO  01:37:41 Application started. Press Ctrl+C to shut down.
+INFO  01:37:41 Application started. Press Ctrl+C to shut down.
+INFO  01:37:41 Hosting environment: Development
+INFO  01:37:41 Hosting environment: Development
+INFO  01:37:41 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  01:37:41 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  01:39:26 VehicleOperationsinvoked
+INFO  01:40:06 VehicleOperationsinvoked
+INFO  01:40:12 VehicleOperationsinvoked
+INFO  01:40:26 Authentication initiated
+INFO  01:40:26 UserOperationsinvoked
+INFO  01:40:36 login data is correct
+INFO  01:40:36 Token generation initiated
+INFO  01:40:37 Token Generated Successfuly
+INFO  01:40:38 VehicleOperationsinvoked
+INFO  01:40:53 VehicleOperationsinvoked
+INFO  01:42:12 VehicleOperationsinvoked
+INFO  01:42:15 VehicleOperationsinvoked
+INFO  01:49:29 Application started. Press Ctrl+C to shut down.
+INFO  01:49:29 Application started. Press Ctrl+C to shut down.
+INFO  01:49:29 Hosting environment: Development
+INFO  01:49:29 Hosting environment: Development
+INFO  01:49:29 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  01:49:29 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  01:50:57 VehicleOperationsinvoked
+INFO  01:52:03 Authentication initiated
+INFO  01:52:03 UserOperationsinvoked
+INFO  01:52:12 login data is correct
+INFO  01:52:12 Token generation initiated
+INFO  01:52:13 Token Generated Successfuly
+INFO  01:52:14 VehicleOperationsinvoked
+INFO  01:52:31 VehicleOperationsinvoked
+ERROR 02:00:44 Error occured from VehicleOperationsError Message One or more errors occurred. (A task was canceled.)
+INFO  02:00:44 VehicleOperationsinvoked
+INFO  02:01:00 Authentication initiated
+INFO  02:01:00 UserOperationsinvoked
+INFO  02:01:00 login data is correct
+INFO  02:01:00 Token generation initiated
+INFO  02:01:00 Token Generated Successfuly
+INFO  02:01:00 VehicleOperationsinvoked
+INFO  02:01:14 VehicleOperationsinvoked
+ERROR 02:03:07 Error occured from VehicleOperationsError Message One or more errors occurred. (A task was canceled.)
+INFO  02:03:20 VehicleOperationsinvoked
+INFO  02:03:24 VehicleOperationsinvoked
+INFO  02:04:22 VehicleOperationsinvoked
+INFO  02:04:31 Authentication initiated
+INFO  02:04:31 UserOperationsinvoked
+INFO  02:04:31 login data is correct
+INFO  02:04:31 Token generation initiated
+INFO  02:04:31 Token Generated Successfuly
+INFO  02:04:31 VehicleOperationsinvoked
+INFO  02:04:39 VehicleOperationsinvoked
+INFO  02:05:12 VehicleOperationsinvoked
+INFO  02:06:43 CartOperationsinvoked
+INFO  02:06:46 VehicleOperationsinvoked
+INFO  02:06:54 VehicleOperationsinvoked
+INFO  02:07:11 VehicleOperationsinvoked

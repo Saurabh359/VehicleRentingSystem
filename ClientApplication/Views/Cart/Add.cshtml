@@ -1,0 +1,46 @@
+﻿@model ClientApplication.Models.Cart
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h1>Rent</h1>
+
+    <h4>Vehicle</h4>
+    <hr />
+    <div class="row">
+        <form asp-action="Add" method="post">
+            <div class="col-md-8 offset-3">
+                <div class="form-group">
+                <input asp-for="VehicleId" value="@ViewData["vehicleId"]"  class="form-control" hidden/>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Hours" class="control-label"></label>
+                    <input asp-for="Hours" class="form-control" />
+                </div>
+                <div class='col-sm-12'>
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input asp-for="Booking" class="form-control" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                     $(function () {
+                         $('#datetimepicker1').datetimepicker();
+                     });
+                </script>
+                <div class="form-group">
+                    <input type="submit" value="Add" class="btn btn-primary" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index" asp-controller="Vehicle">Back to List</a>
+</div>
