@@ -76,11 +76,13 @@ namespace AuthorizationService.Controllers
                 }
                 else
                 {
+                    _log4net.Info("Bad Request !! Invalid Login Credentials");
                     return BadRequest("Invalid credentials");
                 }
             }
             else
             {
+                _log4net.Info("Bad request !!!  user data is null");
                 return BadRequest();
             }
         }
