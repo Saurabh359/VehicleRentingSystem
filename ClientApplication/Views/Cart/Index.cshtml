@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ClientApplication.Models.Vehicle>
+﻿@model IEnumerable<ClientApplication.Models.Cart>
 
 @{
     ViewData["Title"] = "Index";
@@ -20,10 +20,13 @@
                     <img class="card-img" src="https://images.hdqwalls.com/download/orange-lambo-aventador-5k-5j-2048x1152.jpg" height="150" width="200" />
                 </div>
                 <div class="col-sm-9 media-body align-content-end text-center">
-                    <h3 class="card-title m-0">@item.Name</h3>
-                    <p class="card-text m-0">@item.Color</p>
-                    <p class="card-text m-0">@item.Category</p>
-                    <p class="card-text m-0">@item.Brand</p>
+                    <h3 class="card-title m-0">@item.Vehicle.Name</h3>
+                    <p class="card-text m-0">@item.Vehicle.Color</p>
+                    <p class="card-text m-0">@item.Vehicle.Category</p>
+                    <p class="card-text m-0">@item.Vehicle.Brand</p>
+                    <p class="card-text m-0">@item.Booking</p>
+                    <p class="card-text m-0"><strong>Booked For : </strong> @item.Hours hrs</p>
+                    <p class="card-text m-0"><strong>Total Price : Rs.</strong>@(item.Hours * item.Vehicle.RentPerHour) </p>
                 </div>
             </div>
         }

@@ -84,3 +84,455 @@ INFO  02:03:52 CartOperationsinvoked
 INFO  02:04:56 CartOperationsinvoked
 INFO  02:06:44 CartOperationsinvoked
 INFO  02:07:00 CartOperationsinvoked
+INFO  02:37:15 Application started. Press Ctrl+C to shut down.
+INFO  02:37:15 Application started. Press Ctrl+C to shut down.
+INFO  02:37:15 Hosting environment: Development
+INFO  02:37:15 Hosting environment: Development
+INFO  02:37:15 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  02:37:15 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  02:39:07 CartOperationsinvoked
+INFO  08:58:43 Application started. Press Ctrl+C to shut down.
+INFO  08:58:43 Application started. Press Ctrl+C to shut down.
+INFO  08:58:44 Hosting environment: Development
+INFO  08:58:44 Hosting environment: Development
+INFO  08:58:44 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  08:58:44 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  09:05:33 Application started. Press Ctrl+C to shut down.
+INFO  09:05:33 Application started. Press Ctrl+C to shut down.
+INFO  09:05:33 Hosting environment: Development
+INFO  09:05:33 Hosting environment: Development
+INFO  09:05:33 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  09:05:33 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  09:07:28 CartOperationsinvoked
+INFO  10:06:36 Application started. Press Ctrl+C to shut down.
+INFO  10:06:36 Application started. Press Ctrl+C to shut down.
+INFO  10:06:37 Hosting environment: Development
+INFO  10:06:37 Hosting environment: Development
+INFO  10:06:38 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  10:06:38 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  10:13:29 CartOperationsinvoked
+ERROR 10:14:15 Failed executing DbCommand (2,885ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Booking], [c].[Hours], [c].[UserId], [c].[VehicleId], [u].[Id], [u].[Address], [u].[Email], [u].[Gender], [u].[Name], [u].[Password], [u].[PhoneNo], [v].[Id], [v].[Available], [v].[Brand], [v].[Category], [v].[Color], [v].[Name], [v].[RentPerHour], [v].[UserId]
+FROM [Carts] AS [c]
+INNER JOIN [User] AS [u] ON [c].[UserId] = [u].[Id]
+INNER JOIN [Vehicles] AS [v] ON [c].[VehicleId] = [v].[Id]
+WHERE [c].[UserId] = @__id_0
+ERROR 10:14:15 Failed executing DbCommand (2,885ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Booking], [c].[Hours], [c].[UserId], [c].[VehicleId], [u].[Id], [u].[Address], [u].[Email], [u].[Gender], [u].[Name], [u].[Password], [u].[PhoneNo], [v].[Id], [v].[Available], [v].[Brand], [v].[Category], [v].[Color], [v].[Name], [v].[RentPerHour], [v].[UserId]
+FROM [Carts] AS [c]
+INNER JOIN [User] AS [u] ON [c].[UserId] = [u].[Id]
+INNER JOIN [Vehicles] AS [v] ON [c].[VehicleId] = [v].[Id]
+WHERE [c].[UserId] = @__id_0
+ERROR 10:14:20 An exception occurred while iterating over the results of a query for context type 'RentService.Models.VehicleDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2dc17434-e09f-4ebf-a6c3-7670fae355b5
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2dc17434-e09f-4ebf-a6c3-7670fae355b5
+Error Number:208,State:1,Class:16
+ERROR 10:14:20 An exception occurred while iterating over the results of a query for context type 'RentService.Models.VehicleDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2dc17434-e09f-4ebf-a6c3-7670fae355b5
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2dc17434-e09f-4ebf-a6c3-7670fae355b5
+Error Number:208,State:1,Class:16
+ERROR 10:14:23 Error occured from CartOperationsError Message Invalid object name 'User'.
+INFO  10:14:57 CartOperationsinvoked
+ERROR 10:14:58 Failed executing DbCommand (212ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Booking], [c].[Hours], [c].[UserId], [c].[VehicleId], [u].[Id], [u].[Address], [u].[Email], [u].[Gender], [u].[Name], [u].[Password], [u].[PhoneNo], [v].[Id], [v].[Available], [v].[Brand], [v].[Category], [v].[Color], [v].[Name], [v].[RentPerHour], [v].[UserId]
+FROM [Carts] AS [c]
+INNER JOIN [User] AS [u] ON [c].[UserId] = [u].[Id]
+INNER JOIN [Vehicles] AS [v] ON [c].[VehicleId] = [v].[Id]
+WHERE [c].[UserId] = @__id_0
+ERROR 10:14:58 Failed executing DbCommand (212ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Booking], [c].[Hours], [c].[UserId], [c].[VehicleId], [u].[Id], [u].[Address], [u].[Email], [u].[Gender], [u].[Name], [u].[Password], [u].[PhoneNo], [v].[Id], [v].[Available], [v].[Brand], [v].[Category], [v].[Color], [v].[Name], [v].[RentPerHour], [v].[UserId]
+FROM [Carts] AS [c]
+INNER JOIN [User] AS [u] ON [c].[UserId] = [u].[Id]
+INNER JOIN [Vehicles] AS [v] ON [c].[VehicleId] = [v].[Id]
+WHERE [c].[UserId] = @__id_0
+ERROR 10:14:59 An exception occurred while iterating over the results of a query for context type 'RentService.Models.VehicleDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2dc17434-e09f-4ebf-a6c3-7670fae355b5
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2dc17434-e09f-4ebf-a6c3-7670fae355b5
+Error Number:208,State:1,Class:16
+ERROR 10:14:59 An exception occurred while iterating over the results of a query for context type 'RentService.Models.VehicleDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2dc17434-e09f-4ebf-a6c3-7670fae355b5
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2dc17434-e09f-4ebf-a6c3-7670fae355b5
+Error Number:208,State:1,Class:16
+ERROR 10:15:00 Error occured from CartOperationsError Message Invalid object name 'User'.
+INFO  10:20:05 CartOperationsinvoked
+ERROR 10:20:47 Failed executing DbCommand (377ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Booking], [c].[Hours], [c].[UserId], [c].[VehicleId], [u].[Id], [u].[Address], [u].[Email], [u].[Gender], [u].[Name], [u].[Password], [u].[PhoneNo], [v].[Id], [v].[Available], [v].[Brand], [v].[Category], [v].[Color], [v].[Name], [v].[RentPerHour], [v].[UserId]
+FROM [Carts] AS [c]
+INNER JOIN [User] AS [u] ON [c].[UserId] = [u].[Id]
+INNER JOIN [Vehicles] AS [v] ON [c].[VehicleId] = [v].[Id]
+WHERE [c].[UserId] = @__id_0
+ERROR 10:20:47 Failed executing DbCommand (377ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Booking], [c].[Hours], [c].[UserId], [c].[VehicleId], [u].[Id], [u].[Address], [u].[Email], [u].[Gender], [u].[Name], [u].[Password], [u].[PhoneNo], [v].[Id], [v].[Available], [v].[Brand], [v].[Category], [v].[Color], [v].[Name], [v].[RentPerHour], [v].[UserId]
+FROM [Carts] AS [c]
+INNER JOIN [User] AS [u] ON [c].[UserId] = [u].[Id]
+INNER JOIN [Vehicles] AS [v] ON [c].[VehicleId] = [v].[Id]
+WHERE [c].[UserId] = @__id_0
+ERROR 10:20:48 An exception occurred while iterating over the results of a query for context type 'RentService.Models.VehicleDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f842841d-1ccb-499a-b5e9-1d1763c352ae
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f842841d-1ccb-499a-b5e9-1d1763c352ae
+Error Number:208,State:1,Class:16
+ERROR 10:20:48 An exception occurred while iterating over the results of a query for context type 'RentService.Models.VehicleDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f842841d-1ccb-499a-b5e9-1d1763c352ae
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f842841d-1ccb-499a-b5e9-1d1763c352ae
+Error Number:208,State:1,Class:16
+ERROR 10:20:51 Error occured from CartOperationsError Message Invalid object name 'User'.
+INFO  10:51:30 Application started. Press Ctrl+C to shut down.
+INFO  10:51:31 Application started. Press Ctrl+C to shut down.
+INFO  10:51:31 Hosting environment: Development
+INFO  10:51:31 Hosting environment: Development
+INFO  10:51:32 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  10:51:32 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  10:54:55 CartOperationsinvoked
+ERROR 10:55:46 Failed executing DbCommand (2,860ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Booking], [c].[Hours], [c].[UserId], [c].[VehicleId], [u].[Id], [u].[Address], [u].[Email], [u].[Gender], [u].[Name], [u].[Password], [u].[PhoneNo], [v].[Id], [v].[Available], [v].[Brand], [v].[Category], [v].[Color], [v].[Name], [v].[RentPerHour], [v].[UserId]
+FROM [Carts] AS [c]
+INNER JOIN [User] AS [u] ON [c].[UserId] = [u].[Id]
+INNER JOIN [Vehicles] AS [v] ON [c].[VehicleId] = [v].[Id]
+WHERE [c].[UserId] = @__id_0
+ERROR 10:55:46 Failed executing DbCommand (2,860ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Booking], [c].[Hours], [c].[UserId], [c].[VehicleId], [u].[Id], [u].[Address], [u].[Email], [u].[Gender], [u].[Name], [u].[Password], [u].[PhoneNo], [v].[Id], [v].[Available], [v].[Brand], [v].[Category], [v].[Color], [v].[Name], [v].[RentPerHour], [v].[UserId]
+FROM [Carts] AS [c]
+INNER JOIN [User] AS [u] ON [c].[UserId] = [u].[Id]
+INNER JOIN [Vehicles] AS [v] ON [c].[VehicleId] = [v].[Id]
+WHERE [c].[UserId] = @__id_0
+ERROR 10:55:51 An exception occurred while iterating over the results of a query for context type 'RentService.Models.VehicleDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:0b857bca-4408-4b16-86f1-1f5d984ed185
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:0b857bca-4408-4b16-86f1-1f5d984ed185
+Error Number:208,State:1,Class:16
+ERROR 10:55:51 An exception occurred while iterating over the results of a query for context type 'RentService.Models.VehicleDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:0b857bca-4408-4b16-86f1-1f5d984ed185
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:0b857bca-4408-4b16-86f1-1f5d984ed185
+Error Number:208,State:1,Class:16
+ERROR 10:55:54 Error occured from CartOperationsError Message Invalid object name 'User'.
+INFO  11:03:39 Application started. Press Ctrl+C to shut down.
+INFO  11:03:39 Application started. Press Ctrl+C to shut down.
+INFO  11:03:40 Hosting environment: Development
+INFO  11:03:40 Hosting environment: Development
+INFO  11:03:40 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  11:03:40 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  11:06:22 CartOperationsinvoked
+INFO  11:26:38 Application started. Press Ctrl+C to shut down.
+INFO  11:26:38 Application started. Press Ctrl+C to shut down.
+INFO  11:26:38 Hosting environment: Development
+INFO  11:26:38 Hosting environment: Development
+INFO  11:26:38 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  11:26:38 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  11:26:42 CartOperationsinvoked
+INFO  11:48:11 Application started. Press Ctrl+C to shut down.
+INFO  11:48:11 Application started. Press Ctrl+C to shut down.
+INFO  11:48:11 Hosting environment: Development
+INFO  11:48:11 Hosting environment: Development
+INFO  11:48:11 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  11:48:11 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  11:55:26 CartOperationsinvoked
+INFO  11:56:42 CartOperationsinvoked
+INFO  11:58:16 CartOperationsinvoked
+INFO  06:54:41 Application started. Press Ctrl+C to shut down.
+INFO  06:54:42 Application started. Press Ctrl+C to shut down.
+INFO  06:54:42 Hosting environment: Development
+INFO  06:54:42 Hosting environment: Development
+INFO  06:54:42 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  06:54:42 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  06:57:50 CartOperationsinvoked
+INFO  06:58:58 CartOperationsinvoked
+INFO  07:01:00 CartOperationsinvoked
+INFO  07:06:50 Application started. Press Ctrl+C to shut down.
+INFO  07:06:50 Application started. Press Ctrl+C to shut down.
+INFO  07:06:50 Hosting environment: Development
+INFO  07:06:50 Hosting environment: Development
+INFO  07:06:50 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  07:06:50 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  07:08:13 CartOperationsinvoked
+INFO  07:09:21 CartOperationsinvoked
+INFO  07:16:30 CartOperationsinvoked
+INFO  07:17:49 CartOperationsinvoked
+INFO  07:18:45 CartOperationsinvoked
+INFO  07:18:59 CartOperationsinvoked
+INFO  07:27:10 Application started. Press Ctrl+C to shut down.
+INFO  07:27:11 Application started. Press Ctrl+C to shut down.
+INFO  07:27:11 Hosting environment: Development
+INFO  07:27:11 Hosting environment: Development
+INFO  07:27:11 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  07:27:11 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  07:28:54 CartOperationsinvoked
+INFO  07:41:45 Application started. Press Ctrl+C to shut down.
+INFO  07:41:45 Application started. Press Ctrl+C to shut down.
+INFO  07:41:45 Hosting environment: Development
+INFO  07:41:45 Hosting environment: Development
+INFO  07:41:46 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  07:41:46 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  07:44:22 CartOperationsinvoked
+INFO  08:00:15 Application started. Press Ctrl+C to shut down.
+INFO  08:00:15 Application started. Press Ctrl+C to shut down.
+INFO  08:00:16 Hosting environment: Development
+INFO  08:00:16 Hosting environment: Development
+INFO  08:00:16 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  08:00:16 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  08:01:38 CartOperationsinvoked
+INFO  08:03:06 CartOperationsinvoked
+INFO  08:03:16 CartOperationsinvoked
+INFO  08:07:21 Application started. Press Ctrl+C to shut down.
+INFO  08:07:21 Application started. Press Ctrl+C to shut down.
+INFO  08:07:22 Hosting environment: Development
+INFO  08:07:22 Hosting environment: Development
+INFO  08:07:22 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  08:07:22 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  08:08:42 CartOperationsinvoked
+INFO  08:09:43 CartOperationsinvoked
+INFO  08:10:09 CartOperationsinvoked
+INFO  08:21:20 Application started. Press Ctrl+C to shut down.
+INFO  08:21:20 Application started. Press Ctrl+C to shut down.
+INFO  08:21:20 Hosting environment: Development
+INFO  08:21:20 Hosting environment: Development
+INFO  08:21:21 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  08:21:21 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\RentService
+INFO  08:22:34 CartOperationsinvoked
+INFO  08:25:28 CartOperationsinvoked

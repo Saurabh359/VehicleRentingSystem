@@ -8,7 +8,7 @@ namespace VehicleService.Repository
     public interface IVehicleRepository<T> 
     {
         Task<List<T>> FindAll();
-        Task<List<T>> Search(int id);
+        Task<T> Search(int id);
         Task<bool> Add(T entity);
     }
 }

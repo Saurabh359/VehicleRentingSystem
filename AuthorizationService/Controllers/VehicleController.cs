@@ -39,7 +39,7 @@ namespace AuthorizationService.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Vehicle vehicle)
+        public async Task<IActionResult> Post([FromBody]Vehicle vehicle)
         {
             return Ok(await repository.Add(vehicle));
         }

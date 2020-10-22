@@ -70,8 +70,10 @@ namespace VehicleService.Repository
             }
         }
 
-        public async Task<List<Vehicle>> Search(int id)
+        public Task<List<Vehicle>> Search(int id)
         {
+            throw new NotImplementedException();
+            /*
             try
             {
                 _log4net.Info(nameof(VehicleOperations) + "invoked");
@@ -94,6 +96,7 @@ namespace VehicleService.Repository
                 _log4net.Error("Error occured from " + nameof(VehicleOperations) + "Error Message " + e.Message);
                 return null;
             }
+            */
         }
     }
 }

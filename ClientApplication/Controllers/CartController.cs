@@ -22,21 +22,20 @@ namespace ClientApplication.Controllers
             }
 
             HttpClient client = new HttpClient();
-
             var query = "/" + HttpContext.Session.GetInt32("userId");
+            var carts = new List<Cart>();
 
-            var items = new List<Vehicle>();
-            var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44362/api/Vehicle" + query);
+            var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44362/api/Cart" + query);
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("token"));
             var response = client.SendAsync(request).Result;
 
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
             {
                 var responseContent = await response.Content.ReadAsStringAsync();
-                items = JsonConvert.DeserializeObject<List<Vehicle>>(responseContent);
+                carts = JsonConvert.DeserializeObject<List<Cart>>(responseContent);
             }
 
-            return View(items);
+            return View(carts);
 
         }
 

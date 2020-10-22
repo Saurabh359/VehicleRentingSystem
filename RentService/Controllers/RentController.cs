@@ -10,6 +10,7 @@ using RentService.Repository;
 
 namespace RentService.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class RentController : ControllerBase
@@ -22,13 +23,13 @@ namespace RentService.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<List<int>> Get(int id)
+        public async Task<List<Cart>> Get(int id)
         {
-            return await cartRepository.GetAll(id); 
+            return await cartRepository.GetAll(id);
         }
 
         [HttpPost]
-        public async Task<bool> Post([FromBody]Cart cart)
+        public async Task<bool> Post([FromBody] Cart cart)
         {
             return await cartRepository.Add(cart);
         }

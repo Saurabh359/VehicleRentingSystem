@@ -27,9 +27,8 @@ namespace VehicleService.Controllers
               return await repository.FindAll();
         }
 
-        // GET api/<VehicleController>/5
         [HttpGet("{id}")]
-        public async Task<List<Vehicle>> Get(int id)
+        public async Task<Vehicle> Get(int id)
         {
             return await repository.Search(id);
         }

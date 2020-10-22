@@ -18,7 +18,6 @@ namespace AuthorizationService.Controllers
     [Authorize]
     public class CartController : ControllerBase
     {
-
         public readonly IAuthRepository<Cart> repository;
 
         public CartController(IAuthRepository<Cart> authRepository)
@@ -26,14 +25,12 @@ namespace AuthorizationService.Controllers
             repository = authRepository;
         }
 
-        /*
         [HttpGet("{id}")]
         public async Task<List<Cart>> Get(int id)
         {
            return await repository.Search(id);
         }
 
-        */
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]Cart cart)
         {

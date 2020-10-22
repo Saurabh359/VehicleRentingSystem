@@ -37,13 +37,13 @@ namespace RentService.Repository
             }
         }
 
-        public async Task<List<int>> GetAll(int id)
-        { 
-            try 
+        public async Task<List<Cart>> GetAll(int id)
+        {
+            try
             {
                 _log4net.Info(nameof(CartOperations) + "invoked");
 
-                var cart = from item in context.Carts where item.UserId == id select item.VehicleId;
+                var cart = context.Carts.Where(x => x.UserId.Equals(id)).Include(x => x.Vehicle);
                 return await cart.ToListAsync();
             }
             catch (Exception e)

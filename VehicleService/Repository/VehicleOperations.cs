@@ -52,23 +52,13 @@ namespace VehicleService.Repository
             }
         }
 
-        public async Task<List<Vehicle>> Search(int id)
+        public async Task<Vehicle> Search(int id)
         {
+
             try
             {
-                _log4net.Info(nameof(VehicleOperations) + "invoked");
-
-                var cart = new List<int>();
-                var query = "/" + id;
-                HttpClient client = new HttpClient();
-                var response = await client.GetAsync("https://localhost:44316/api/Rent" + query);
-
-                var responseContent = await response.Content.ReadAsStringAsync();
-                cart = JsonConvert.DeserializeObject<List<int>>(responseContent);
-
-                var vehicles = from i in context.Vehicles where cart.Any(x => x.Equals(i.Id)) select i;
-
-                return await vehicles.ToListAsync();
+                var vech = await context.Vehicles.FindAsync(id);
+                return vech;
             }
             catch (Exception e)
             {

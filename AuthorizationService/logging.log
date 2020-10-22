@@ -877,3 +877,290 @@ INFO  02:06:43 CartOperationsinvoked
 INFO  02:06:46 VehicleOperationsinvoked
 INFO  02:06:54 VehicleOperationsinvoked
 INFO  02:07:11 VehicleOperationsinvoked
+INFO  02:34:13 Application started. Press Ctrl+C to shut down.
+INFO  02:34:13 Application started. Press Ctrl+C to shut down.
+INFO  02:34:13 Hosting environment: Development
+INFO  02:34:13 Hosting environment: Development
+INFO  02:34:13 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  02:34:13 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  02:37:39 VehicleOperationsinvoked
+INFO  02:38:45 Authentication initiated
+INFO  02:38:45 UserOperationsinvoked
+INFO  02:38:55 login data is correct
+INFO  02:38:55 Token generation initiated
+INFO  02:38:56 Token Generated Successfuly
+INFO  02:38:57 VehicleOperationsinvoked
+INFO  02:39:02 VehicleOperationsinvoked
+INFO  02:39:27 VehicleOperationsinvoked
+INFO  02:39:38 Authentication initiated
+INFO  02:39:38 Bad request !!!  user data is null
+INFO  02:39:40 Authentication initiated
+INFO  02:39:40 Bad request !!!  user data is null
+INFO  02:39:45 Authentication initiated
+INFO  02:39:45 Bad request !!!  user data is null
+INFO  08:56:54 Application started. Press Ctrl+C to shut down.
+INFO  08:56:55 Application started. Press Ctrl+C to shut down.
+INFO  08:56:55 Hosting environment: Development
+INFO  08:56:55 Hosting environment: Development
+INFO  08:56:55 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  08:56:55 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:00:05 Authentication initiated
+INFO  09:00:05 UserOperationsinvoked
+INFO  09:00:18 login data is correct
+INFO  09:00:18 Token generation initiated
+INFO  09:00:20 Token Generated Successfuly
+INFO  09:04:51 Application started. Press Ctrl+C to shut down.
+INFO  09:04:51 Application started. Press Ctrl+C to shut down.
+INFO  09:04:51 Hosting environment: Development
+INFO  09:04:51 Hosting environment: Development
+INFO  09:04:51 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:04:51 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:06:22 VehicleOperationsinvoked
+INFO  09:07:06 Authentication initiated
+INFO  09:07:06 UserOperationsinvoked
+INFO  09:07:18 login data is correct
+INFO  09:07:18 Token generation initiated
+INFO  09:07:19 Token Generated Successfuly
+INFO  09:07:20 VehicleOperationsinvoked
+INFO  09:07:24 VehicleOperationsinvoked
+INFO  09:07:46 VehicleOperationsinvoked
+INFO  09:46:39 Application started. Press Ctrl+C to shut down.
+INFO  09:46:42 Application started. Press Ctrl+C to shut down.
+INFO  09:46:44 Hosting environment: Development
+INFO  09:46:44 Hosting environment: Development
+INFO  09:46:48 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:46:49 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:55:01 Application started. Press Ctrl+C to shut down.
+INFO  09:55:01 Application started. Press Ctrl+C to shut down.
+INFO  09:55:01 Hosting environment: Development
+INFO  09:55:01 Hosting environment: Development
+INFO  09:55:01 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  09:55:01 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:04:45 VehicleOperationsinvoked
+ERROR 10:06:33 Error occured from VehicleOperationsError Message One or more errors occurred. (A task was canceled.)
+INFO  10:07:03 VehicleOperationsinvoked
+INFO  10:08:08 Authentication initiated
+INFO  10:08:08 UserOperationsinvoked
+INFO  10:09:02 login data is correct
+INFO  10:09:02 Token generation initiated
+INFO  10:09:07 Token Generated Successfuly
+INFO  10:09:11 VehicleOperationsinvoked
+INFO  10:13:24 CartOperationsinvoked
+INFO  10:14:36 VehicleOperationsinvoked
+INFO  10:14:55 CartOperationsinvoked
+INFO  10:15:06 VehicleOperationsinvoked
+INFO  10:18:34 Authentication initiated
+INFO  10:18:34 UserOperationsinvoked
+INFO  10:18:36 login data is correct
+INFO  10:18:36 Token generation initiated
+INFO  10:18:36 Token Generated Successfuly
+INFO  10:18:37 VehicleOperationsinvoked
+INFO  10:19:28 CartOperationsinvoked
+INFO  10:48:10 Application started. Press Ctrl+C to shut down.
+INFO  10:48:19 Application started. Press Ctrl+C to shut down.
+INFO  10:48:24 Hosting environment: Development
+INFO  10:48:24 Hosting environment: Development
+INFO  10:48:25 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  10:48:25 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:12:46 Application started. Press Ctrl+C to shut down.
+INFO  11:12:47 Application started. Press Ctrl+C to shut down.
+INFO  11:12:48 Hosting environment: Development
+INFO  11:12:48 Hosting environment: Development
+INFO  11:12:48 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:12:48 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:23:20 VehicleOperationsinvoked
+INFO  11:24:55 Authentication initiated
+INFO  11:24:55 UserOperationsinvoked
+INFO  11:25:26 login data is correct
+INFO  11:25:26 Token generation initiated
+INFO  11:25:28 Token Generated Successfuly
+INFO  11:25:30 VehicleOperationsinvoked
+INFO  11:26:05 CartOperationsinvoked
+INFO  11:34:49 Application started. Press Ctrl+C to shut down.
+INFO  11:34:50 Application started. Press Ctrl+C to shut down.
+INFO  11:34:52 Hosting environment: Development
+INFO  11:34:52 Hosting environment: Development
+INFO  11:34:55 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:34:55 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:52:06 Application started. Press Ctrl+C to shut down.
+INFO  11:52:06 Application started. Press Ctrl+C to shut down.
+INFO  11:52:06 Hosting environment: Development
+INFO  11:52:06 Hosting environment: Development
+INFO  11:52:06 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:52:06 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  11:54:05 VehicleOperationsinvoked
+INFO  11:54:58 Authentication initiated
+INFO  11:54:58 UserOperationsinvoked
+INFO  11:55:07 login data is correct
+INFO  11:55:07 Token generation initiated
+INFO  11:55:08 Token Generated Successfuly
+INFO  11:55:09 VehicleOperationsinvoked
+INFO  11:55:15 CartOperationsinvoked
+INFO  11:56:09 VehicleOperationsinvoked
+INFO  11:56:31 Authentication initiated
+INFO  11:56:31 UserOperationsinvoked
+INFO  11:56:32 login data is correct
+INFO  11:56:32 Token generation initiated
+INFO  11:56:32 Token Generated Successfuly
+INFO  11:56:32 VehicleOperationsinvoked
+INFO  11:56:37 CartOperationsinvoked
+INFO  11:57:08 VehicleOperationsinvoked
+INFO  11:58:13 VehicleOperationsinvoked
+INFO  11:58:16 CartOperationsinvoked
+INFO  11:58:19 VehicleOperationsinvoked
+INFO  06:54:44 Application started. Press Ctrl+C to shut down.
+INFO  06:54:44 Application started. Press Ctrl+C to shut down.
+INFO  06:54:44 Hosting environment: Development
+INFO  06:54:44 Hosting environment: Development
+INFO  06:54:44 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:54:44 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  06:54:49 VehicleOperationsinvoked
+INFO  06:55:55 Authentication initiated
+INFO  06:55:55 UserOperationsinvoked
+INFO  06:56:04 login data is correct
+INFO  06:56:04 Token generation initiated
+INFO  06:56:05 Token Generated Successfuly
+INFO  06:56:06 VehicleOperationsinvoked
+INFO  06:57:48 CartOperationsinvoked
+INFO  06:58:16 VehicleOperationsinvoked
+INFO  06:58:55 VehicleOperationsinvoked
+INFO  06:58:58 CartOperationsinvoked
+INFO  06:59:03 VehicleOperationsinvoked
+INFO  07:00:57 Authentication initiated
+INFO  07:00:57 UserOperationsinvoked
+INFO  07:00:57 login data is correct
+INFO  07:00:57 Token generation initiated
+INFO  07:00:57 Token Generated Successfuly
+INFO  07:00:58 VehicleOperationsinvoked
+INFO  07:01:00 CartOperationsinvoked
+INFO  07:01:25 VehicleOperationsinvoked
+INFO  07:05:25 Application started. Press Ctrl+C to shut down.
+INFO  07:05:25 Application started. Press Ctrl+C to shut down.
+INFO  07:05:25 Hosting environment: Development
+INFO  07:05:25 Hosting environment: Development
+INFO  07:05:25 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  07:05:25 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  07:07:04 VehicleOperationsinvoked
+INFO  07:07:48 Authentication initiated
+INFO  07:07:48 UserOperationsinvoked
+INFO  07:07:56 login data is correct
+INFO  07:07:56 Token generation initiated
+INFO  07:07:57 Token Generated Successfuly
+INFO  07:07:58 VehicleOperationsinvoked
+INFO  07:08:11 CartOperationsinvoked
+INFO  07:08:31 VehicleOperationsinvoked
+INFO  07:09:18 VehicleOperationsinvoked
+INFO  07:09:21 CartOperationsinvoked
+INFO  07:16:23 VehicleOperationsinvoked
+INFO  07:16:29 CartOperationsinvoked
+INFO  07:16:34 VehicleOperationsinvoked
+INFO  07:17:21 VehicleOperationsinvoked
+INFO  07:17:32 Authentication initiated
+INFO  07:17:32 UserOperationsinvoked
+INFO  07:17:33 login data is correct
+INFO  07:17:33 Token generation initiated
+INFO  07:17:33 Token Generated Successfuly
+INFO  07:17:33 VehicleOperationsinvoked
+INFO  07:17:49 CartOperationsinvoked
+INFO  07:17:55 VehicleOperationsinvoked
+INFO  07:18:45 CartOperationsinvoked
+INFO  07:18:50 VehicleOperationsinvoked
+INFO  07:18:59 CartOperationsinvoked
+INFO  07:19:03 VehicleOperationsinvoked
+INFO  07:27:14 Application started. Press Ctrl+C to shut down.
+INFO  07:27:14 Application started. Press Ctrl+C to shut down.
+INFO  07:27:14 Hosting environment: Development
+INFO  07:27:14 Hosting environment: Development
+INFO  07:27:15 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  07:27:15 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  07:27:33 VehicleOperationsinvoked
+INFO  07:28:27 Authentication initiated
+INFO  07:28:27 UserOperationsinvoked
+INFO  07:28:37 login data is correct
+INFO  07:28:37 Token generation initiated
+INFO  07:28:38 Token Generated Successfuly
+INFO  07:28:39 VehicleOperationsinvoked
+INFO  07:28:52 CartOperationsinvoked
+INFO  07:29:29 VehicleOperationsinvoked
+INFO  07:32:50 VehicleOperationsinvoked
+INFO  07:41:46 Application started. Press Ctrl+C to shut down.
+INFO  07:41:46 Application started. Press Ctrl+C to shut down.
+INFO  07:41:46 Hosting environment: Development
+INFO  07:41:46 Hosting environment: Development
+INFO  07:41:46 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  07:41:46 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  07:42:03 VehicleOperationsinvoked
+INFO  07:43:53 Authentication initiated
+INFO  07:43:53 UserOperationsinvoked
+INFO  07:44:03 login data is correct
+INFO  07:44:03 Token generation initiated
+INFO  07:44:04 Token Generated Successfuly
+INFO  07:44:05 VehicleOperationsinvoked
+INFO  07:44:20 CartOperationsinvoked
+INFO  07:44:37 VehicleOperationsinvoked
+INFO  08:00:20 Application started. Press Ctrl+C to shut down.
+INFO  08:00:20 Application started. Press Ctrl+C to shut down.
+INFO  08:00:20 Hosting environment: Development
+INFO  08:00:20 Hosting environment: Development
+INFO  08:00:20 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  08:00:20 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  08:00:38 VehicleOperationsinvoked
+INFO  08:01:19 Authentication initiated
+INFO  08:01:19 UserOperationsinvoked
+INFO  08:01:29 login data is correct
+INFO  08:01:29 Token generation initiated
+INFO  08:01:30 Token Generated Successfuly
+INFO  08:01:31 VehicleOperationsinvoked
+INFO  08:01:36 CartOperationsinvoked
+INFO  08:01:58 VehicleOperationsinvoked
+INFO  08:02:46 CartOperationsinvoked
+INFO  08:03:03 VehicleOperationsinvoked
+INFO  08:03:06 CartOperationsinvoked
+INFO  08:03:13 VehicleOperationsinvoked
+INFO  08:03:16 CartOperationsinvoked
+INFO  08:03:19 VehicleOperationsinvoked
+INFO  08:07:24 Application started. Press Ctrl+C to shut down.
+INFO  08:07:24 Application started. Press Ctrl+C to shut down.
+INFO  08:07:24 Hosting environment: Development
+INFO  08:07:24 Hosting environment: Development
+INFO  08:07:24 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  08:07:24 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  08:07:43 VehicleOperationsinvoked
+INFO  08:08:23 Authentication initiated
+INFO  08:08:23 UserOperationsinvoked
+INFO  08:08:31 login data is correct
+INFO  08:08:31 Token generation initiated
+INFO  08:08:32 Token Generated Successfuly
+INFO  08:08:33 VehicleOperationsinvoked
+INFO  08:08:41 CartOperationsinvoked
+INFO  08:08:58 VehicleOperationsinvoked
+INFO  08:09:33 CartOperationsinvoked
+INFO  08:10:06 VehicleOperationsinvoked
+INFO  08:10:09 CartOperationsinvoked
+INFO  08:10:33 VehicleOperationsinvoked
+INFO  08:21:21 Application started. Press Ctrl+C to shut down.
+INFO  08:21:21 Application started. Press Ctrl+C to shut down.
+INFO  08:21:22 Hosting environment: Development
+INFO  08:21:22 Hosting environment: Development
+INFO  08:21:22 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  08:21:22 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\AuthorizationService
+INFO  08:21:43 VehicleOperationsinvoked
+INFO  08:22:16 Authentication initiated
+INFO  08:22:16 UserOperationsinvoked
+INFO  08:22:27 login data is correct
+INFO  08:22:27 Token generation initiated
+INFO  08:22:28 Token Generated Successfuly
+INFO  08:22:29 VehicleOperationsinvoked
+INFO  08:22:32 CartOperationsinvoked
+INFO  08:22:51 VehicleOperationsinvoked
+INFO  08:23:27 VehicleOperationsinvoked
+INFO  08:25:05 VehicleOperationsinvoked
+INFO  08:25:07 VehicleOperationsinvoked
+INFO  08:25:21 Authentication initiated
+INFO  08:25:21 UserOperationsinvoked
+INFO  08:25:21 login data is correct
+INFO  08:25:21 Token generation initiated
+INFO  08:25:21 Token Generated Successfuly
+INFO  08:25:21 VehicleOperationsinvoked
+INFO  08:25:28 CartOperationsinvoked
+INFO  08:25:47 VehicleOperationsinvoked

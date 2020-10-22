@@ -5,32 +5,23 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RentService.Models 
+namespace RentService.Models
 {
-    public class Vehicle
+    public class User
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-
         [Required]
         public string Name { get; set; }
-
         [Required]
-        public string Color { get; set; }
-
+        public string Email { get; set; }
         [Required]
-        public int RentPerHour { get; set; }
-
-        public string Brand { get; set; }
-
+        public string Password { get; set; }
         [Required]
-        public bool Available { get; set; }
-
+        public string Gender { get; set; }
         [Required]
-        public string Category { get; set; }
-
+        public string PhoneNo { get; set; }
         [Required]
-        public User User { get; set; }
-        public int UserId { get; set; }
+        public string Address { get; set; }
     }
 }

@@ -766,3 +766,505 @@ INFO  02:07:10 Logged in User Display
 INFO  02:07:10 Vehicle Data Fetching from Vehicle Service Initiated
 INFO  02:08:26 Logout and clear all session details
 INFO  02:08:26 Log in page Displayed
+INFO  02:37:33 Application started. Press Ctrl+C to shut down.
+INFO  02:37:33 Application started. Press Ctrl+C to shut down.
+INFO  02:37:33 Hosting environment: Development
+INFO  02:37:33 Hosting environment: Development
+INFO  02:37:33 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  02:37:33 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  02:37:35 Anonymous display
+INFO  02:37:35 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  02:38:22 Anonymous Log in try to add vehicle but redirected to login page
+INFO  02:38:22 Log in page Displayed
+INFO  02:38:43 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  02:38:57 Logged in User Display
+INFO  02:38:57 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  02:39:27 Logged in User Display
+INFO  02:39:27 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  02:39:35 Logout and clear all session details
+INFO  02:39:35 Log in page Displayed
+INFO  02:39:38 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  02:39:38 Log in page Displayed
+INFO  02:39:40 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  02:39:40 Log in page Displayed
+INFO  02:39:45 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  02:39:45 Log in page Displayed
+INFO  08:59:33 Application started. Press Ctrl+C to shut down.
+INFO  08:59:33 Application started. Press Ctrl+C to shut down.
+INFO  08:59:33 Hosting environment: Development
+INFO  08:59:33 Hosting environment: Development
+INFO  08:59:33 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  08:59:33 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  08:59:35 Anonymous display
+INFO  08:59:35 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:59:51 Logout and clear all session details
+INFO  08:59:51 Log in page Displayed
+INFO  09:00:00 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  09:00:21 Logged in User Display
+INFO  09:00:21 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  09:00:25 Logged in User Display
+INFO  09:00:25 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  09:06:16 Application started. Press Ctrl+C to shut down.
+INFO  09:06:16 Application started. Press Ctrl+C to shut down.
+INFO  09:06:16 Hosting environment: Development
+INFO  09:06:16 Hosting environment: Development
+INFO  09:06:16 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  09:06:16 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  09:06:17 Anonymous display
+INFO  09:06:17 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  09:06:51 Log in page Displayed
+INFO  09:07:04 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  09:07:19 Logged in User Display
+INFO  09:07:19 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  09:07:46 Logged in User Display
+INFO  09:07:46 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  09:07:51 Logout and clear all session details
+INFO  09:07:51 Log in page Displayed
+INFO  10:03:53 Application started. Press Ctrl+C to shut down.
+INFO  10:03:55 Application started. Press Ctrl+C to shut down.
+INFO  10:03:57 Hosting environment: Development
+INFO  10:03:57 Hosting environment: Development
+INFO  10:03:58 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  10:03:58 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  10:04:09 Anonymous display
+INFO  10:04:09 Vehicle Data Fetching from Vehicle Service Initiated
+ERROR 10:06:09 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at ClientApplication.Controllers.VehicleController.Index() in C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication\Controllers\VehicleController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:06:09 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at ClientApplication.Controllers.VehicleController.Index() in C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication\Controllers\VehicleController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  10:07:00 Anonymous display
+INFO  10:07:00 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  10:07:41 Log in page Displayed
+INFO  10:07:57 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  10:09:08 Logged in User Display
+INFO  10:09:08 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  10:14:33 Logged in User Display
+INFO  10:14:33 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  10:15:05 Logged in User Display
+INFO  10:15:05 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  10:15:15 Logout and clear all session details
+INFO  10:15:16 Log in page Displayed
+INFO  10:18:32 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  10:18:36 Logged in User Display
+INFO  10:18:36 Vehicle Data Fetching from Vehicle Service Initiated
+ERROR 10:20:49 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at ClientApplication.Controllers.CartController.Index() in C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication\Controllers\CartController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:20:49 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at ClientApplication.Controllers.CartController.Index() in C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication\Controllers\CartController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:23:07 Application started. Press Ctrl+C to shut down.
+INFO  11:23:08 Application started. Press Ctrl+C to shut down.
+INFO  11:23:08 Hosting environment: Development
+INFO  11:23:08 Hosting environment: Development
+INFO  11:23:08 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  11:23:08 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  11:23:10 Anonymous display
+INFO  11:23:10 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  11:24:33 Log in page Displayed
+INFO  11:24:48 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  11:25:29 Logged in User Display
+INFO  11:25:29 Vehicle Data Fetching from Vehicle Service Initiated
+ERROR 11:27:31 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at ClientApplication.Controllers.CartController.Index() in C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication\Controllers\CartController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:27:31 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (A task was canceled.)
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at ClientApplication.Controllers.CartController.Index() in C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication\Controllers\CartController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:54:03 Anonymous display
+INFO  11:54:03 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  11:54:47 Log in page Displayed
+INFO  11:54:56 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  11:55:08 Logged in User Display
+INFO  11:55:08 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  11:56:09 Logged in User Display
+INFO  11:56:09 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  11:56:13 User started adding new vehicle 
+INFO  11:56:25 Logout and clear all session details
+INFO  11:56:25 Log in page Displayed
+INFO  11:56:31 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  11:56:32 Logged in User Display
+INFO  11:56:32 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  11:57:08 Logged in User Display
+INFO  11:57:08 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  11:58:13 Logged in User Display
+INFO  11:58:13 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  11:58:19 Logged in User Display
+INFO  11:58:19 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  06:54:43 Application started. Press Ctrl+C to shut down.
+INFO  06:54:43 Application started. Press Ctrl+C to shut down.
+INFO  06:54:43 Hosting environment: Development
+INFO  06:54:43 Hosting environment: Development
+INFO  06:54:43 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  06:54:43 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  06:54:45 Anonymous display
+INFO  06:54:45 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  06:55:41 Anonymous Log in try to add vehicle but redirected to login page
+INFO  06:55:41 Log in page Displayed
+INFO  06:55:53 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  06:56:05 Logged in User Display
+INFO  06:56:05 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  06:58:16 Logged in User Display
+INFO  06:58:16 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  06:58:55 Logged in User Display
+INFO  06:58:55 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  06:59:03 Logged in User Display
+INFO  06:59:03 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:00:47 Logout and clear all session details
+INFO  07:00:47 Log in page Displayed
+INFO  07:00:57 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  07:00:58 Logged in User Display
+INFO  07:00:58 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:01:25 Logged in User Display
+INFO  07:01:25 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:01:31 Logout and clear all session details
+INFO  07:01:31 Log in page Displayed
+INFO  07:04:23 Application started. Press Ctrl+C to shut down.
+INFO  07:04:23 Application started. Press Ctrl+C to shut down.
+INFO  07:04:24 Hosting environment: Development
+INFO  07:04:24 Hosting environment: Development
+INFO  07:04:24 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  07:04:24 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  07:04:25 Anonymous display
+INFO  07:04:25 Vehicle Data Fetching from Vehicle Service Initiated
+ERROR 07:04:33 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at ClientApplication.Controllers.VehicleController.Index() in C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication\Controllers\VehicleController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 07:04:33 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at ClientApplication.Controllers.VehicleController.Index() in C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication\Controllers\VehicleController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  07:07:02 Anonymous display
+INFO  07:07:02 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:07:36 Logout and clear all session details
+INFO  07:07:36 Log in page Displayed
+INFO  07:07:46 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  07:07:57 Logged in User Display
+INFO  07:07:57 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:08:31 Logged in User Display
+INFO  07:08:31 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:09:18 Logged in User Display
+INFO  07:09:18 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:16:23 Logged in User Display
+INFO  07:16:23 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:16:33 Logged in User Display
+INFO  07:16:33 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:17:21 Logged in User Display
+INFO  07:17:21 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:17:24 Logout and clear all session details
+INFO  07:17:24 Log in page Displayed
+INFO  07:17:32 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  07:17:33 Logged in User Display
+INFO  07:17:33 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:17:55 Logged in User Display
+INFO  07:17:55 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:18:50 Logged in User Display
+INFO  07:18:50 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:19:03 Logged in User Display
+INFO  07:19:03 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:27:16 Application started. Press Ctrl+C to shut down.
+INFO  07:27:16 Application started. Press Ctrl+C to shut down.
+INFO  07:27:16 Hosting environment: Development
+INFO  07:27:16 Hosting environment: Development
+INFO  07:27:17 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  07:27:17 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  07:27:22 Anonymous display
+INFO  07:27:22 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:28:18 Log in page Displayed
+INFO  07:28:26 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  07:28:38 Logged in User Display
+INFO  07:28:38 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:29:29 Logged in User Display
+INFO  07:29:29 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:32:49 Logged in User Display
+INFO  07:32:49 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:41:45 Application started. Press Ctrl+C to shut down.
+INFO  07:41:46 Application started. Press Ctrl+C to shut down.
+INFO  07:41:47 Hosting environment: Development
+INFO  07:41:47 Hosting environment: Development
+INFO  07:41:47 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  07:41:47 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  07:41:51 Anonymous display
+INFO  07:41:51 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:43:28 Log in page Displayed
+INFO  07:43:52 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  07:44:05 Logged in User Display
+INFO  07:44:05 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  07:44:37 Logged in User Display
+INFO  07:44:37 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:00:20 Application started. Press Ctrl+C to shut down.
+INFO  08:00:20 Application started. Press Ctrl+C to shut down.
+INFO  08:00:20 Hosting environment: Development
+INFO  08:00:20 Hosting environment: Development
+INFO  08:00:20 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  08:00:20 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  08:00:25 Anonymous display
+INFO  08:00:25 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:01:09 Logout and clear all session details
+INFO  08:01:09 Log in page Displayed
+INFO  08:01:18 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  08:01:30 Logged in User Display
+INFO  08:01:30 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:01:58 Logged in User Display
+INFO  08:01:58 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:03:03 Logged in User Display
+INFO  08:03:03 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:03:13 Logged in User Display
+INFO  08:03:13 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:03:19 Logged in User Display
+INFO  08:03:19 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:07:24 Application started. Press Ctrl+C to shut down.
+INFO  08:07:25 Application started. Press Ctrl+C to shut down.
+INFO  08:07:25 Hosting environment: Development
+INFO  08:07:25 Hosting environment: Development
+INFO  08:07:26 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  08:07:26 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  08:07:33 Anonymous display
+INFO  08:07:33 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:08:05 Log in page Displayed
+INFO  08:08:21 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  08:08:32 Logged in User Display
+INFO  08:08:32 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:08:57 Logged in User Display
+INFO  08:08:57 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:10:06 Logged in User Display
+INFO  08:10:06 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:10:33 Logged in User Display
+INFO  08:10:33 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:10:41 Logout and clear all session details
+INFO  08:10:41 Log in page Displayed
+INFO  08:21:27 Application started. Press Ctrl+C to shut down.
+INFO  08:21:27 Application started. Press Ctrl+C to shut down.
+INFO  08:21:27 Hosting environment: Development
+INFO  08:21:27 Hosting environment: Development
+INFO  08:21:28 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  08:21:28 Content root path: C:\Users\user\source\repos\VehicleRentingApplication\ClientApplication
+INFO  08:21:35 Anonymous display
+INFO  08:21:35 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:22:06 Log in page Displayed
+INFO  08:22:14 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  08:22:28 Logged in User Display
+INFO  08:22:28 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:22:50 Logged in User Display
+INFO  08:22:50 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:23:26 Logged in User Display
+INFO  08:23:26 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:23:55 User started adding new vehicle 
+INFO  08:25:04 Vehicle data going to pass to Vechicle service 
+INFO  08:25:07 Vehicle Data Saved Successfuly
+INFO  08:25:07 Logged in User Display
+INFO  08:25:07 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:25:14 Logout and clear all session details
+INFO  08:25:14 Log in page Displayed
+INFO  08:25:21 Login Data is going to send for authorization and token generation to AuthorizationService
+INFO  08:25:21 Logged in User Display
+INFO  08:25:21 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:25:47 Logged in User Display
+INFO  08:25:47 Vehicle Data Fetching from Vehicle Service Initiated
+INFO  08:25:55 Logout and clear all session details
+INFO  08:25:55 Log in page Displayed

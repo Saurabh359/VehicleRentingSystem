@@ -7,7 +7,7 @@ namespace RentService.Repository
 {
     public interface ICartRepository<T>
     {
-        Task<List<int>> GetAll(int id);
+        Task<List<T>> GetAll(int id);
         Task<bool> Add(T entity);
     }
 } 

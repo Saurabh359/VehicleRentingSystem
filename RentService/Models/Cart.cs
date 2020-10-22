@@ -12,13 +12,15 @@ namespace RentService.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
+        public User User { get; set; }
         [Required]
         public int UserId { get; set; }
 
+        public Vehicle Vehicle { get; set; }
         [Required]
         public int VehicleId { get; set; }
 
-        [Required]
+        [Required] 
         public DateTime Booking { get; set; }
 
         [Required]

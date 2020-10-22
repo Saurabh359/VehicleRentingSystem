@@ -25,6 +25,7 @@ namespace AuthorizationService.Repository
             {
                 _log4net.Info(nameof(CartOperations) + "invoked");
 
+
                 using (var httpClient = new HttpClient())
                 {
                     var content = new StringContent(JsonConvert.SerializeObject(cart), Encoding.UTF8, "application/json");
@@ -51,32 +52,27 @@ namespace AuthorizationService.Repository
             throw new NotImplementedException();
         }
 
-        public Task<List<Cart>> Search(int id)
+        public async Task<List<Cart>> Search(int id)
         {
-            throw new NotImplementedException();
-            /*
             try
             {
                 _log4net.Info(nameof(CartOperations) + "invoked");
-
                 var carts = new List<Cart>();
                 var query = "/" + id;
                 HttpClient client = new HttpClient();
                 var response = client.GetAsync("https://localhost:44316/api/Rent" + query).Result;
-
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     var responseContent = await response.Content.ReadAsStringAsync();
                     carts = JsonConvert.DeserializeObject<List<Cart>>(responseContent);
                 }
-
                 return carts;
             }
             catch (Exception e)
             {
                 _log4net.Error("Error occured from " + nameof(CartOperations) + "Error Message " + e.Message);
                 return null;
-            }*/
+            }
         }
     }
 }
